@@ -36,7 +36,7 @@ class KonversiDolar : AppCompatActivity(), View.OnClickListener {
             }
 
             if (!isEmptyFields) {
-                val akhir = inputRupiah.toDouble()/15000
+                val akhir = inputRupiah.toFloat()/15000
                 eHasil.text = ("$" +akhir.toString())
             }
         }

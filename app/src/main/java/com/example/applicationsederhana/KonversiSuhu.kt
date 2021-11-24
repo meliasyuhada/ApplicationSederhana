@@ -37,11 +37,11 @@ class KonversiSuhu : AppCompatActivity(), View.OnClickListener {
             }
 
             if (!isEmptyFields) {
-                val celcius = inputCelcius.toDouble()
-                val fahrenheit = (celcius*9/5)+32
-                val kelvin = celcius + 273
-                esHasil.text = (celcius.toString()+" " + "Celcius")
-                akhHasil.text = (fahrenheit.toString()+" " + "Fahrenheit")
+                val farenheit = (9*inputCelcius.toDouble()/5)+32
+                val reamur = 4 *inputCelcius.toDouble()/5
+                val kelvin = inputCelcius.toDouble() + 273
+                esHasil.text = (farenheit.toString()+" " + "Farenheit")
+                akhHasil.text = (reamur.toString()+" " + "Reamur")
                 hasilAkh.text = (kelvin.toString()+ " " +"Kelvin")
 
             }

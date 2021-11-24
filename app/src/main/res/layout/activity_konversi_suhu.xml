@@ -47,8 +47,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="@string/hasil_celcius"
-        android:textSize="10sp"
+        android:text="@string/hasil_farenheit"
+        android:hint="hasil suhu farenheit"
+        android:textSize="15sp"
         android:textStyle="bold" />
 
     <TextView
@@ -56,8 +57,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="@string/hasil_farenheit"
-        android:textSize="10sp"
+        android:text="@string/hasil_reamur"
+        android:hint="hasil suhu reamur"
+        android:textSize="15sp"
         android:textStyle="bold" />
 
     <TextView
@@ -66,7 +68,8 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="@string/hasil_kelvin"
-        android:textSize="10sp"
+        android:hint="hasil suhu kelvin"
+        android:textSize="15sp"
         android:textStyle="bold" />
 
 </LinearLayout>
